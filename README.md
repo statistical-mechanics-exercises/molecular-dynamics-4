@@ -1,7 +1,5 @@
 # The kinetic energy
 
-Now that you have written your MD code that is the hardest part of this exercise completed.  In the rest of this exercise, we are just going to analyse the results that we have obtained, which will be considerably easier.
-
 One thing that is particularly important to check whenever we run an MD simulation is whether or not the energy is being conserved.  To check the energy is conserved we need to store the potential that is calculated every time the forces are calculated.  As well as calculating the potential though we also need to calculate the kinetic energy.  The kinetic energy can be computed using a simple function of the velocities of the atoms, which you should know.
 
 Your task in this exercise is thus to write a function called `kinetic` that takes in a list of velocities and that returns a single scalar value for the total kinetic energy for all the atoms.  To get you started I have given you a set of velocities that you can use to test your function.  The total kinetic energy for this particular set of velocities is ???.
