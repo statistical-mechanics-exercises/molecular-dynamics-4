@@ -3,7 +3,7 @@ import numpy as np
 def kinetic( vel ) :
   ke = 0
   # Your code to calculate the kinetic energy should go here
-  
+  for v in vel : ke = ke + 0.5*sum(v*v)    
   return ke
 
 # This command reads in the velocities that are contained in the file called velocities.txt
